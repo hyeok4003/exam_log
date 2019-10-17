@@ -19,9 +19,12 @@
 
 <body>
 	<header>
-         <nav class="navbar navbar-default navbar-fixed-top">
+	 <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
+<a class="navbar-brand" href="{{ url('/') }}">
+                        {{ config('defaultcfg.defaultcfg.M3DC_LOG_TXT') }}
+                    </a>
             </div>
 
             <div id="patern03" class="collapse navbar-collapse">
